@@ -5,9 +5,18 @@ constructor (item, quantity){
   this.itemQuatity = quantity; // An array that stores how many of each corresponding item you have in the cart.
 }
   //Type the instance functions below this comment.
-this.additem = function(i,q){
-  this.item = i
-  this.quantity = q
+additem(i,q){
+  this.itemList.push(i);
+  this.itemQuantity.push(q);
 
+  }
+totalcart(){
+  let total = this.itemList*this.itemQuantity;
+  return totalcart;
+  }
+subcart(days){
+  this.days = days
+  for()
+  return subcart;
   }
 }

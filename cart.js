@@ -11,7 +11,10 @@ additem(i,q){
 
   }
 totalcart(){
-  let total = this.itemList*this.itemQuantity;
+  let total=0
+  for (a=0; a<this.itemList[].length;a++){
+  let total =let total+this.itemList[a].price*this.itemQuantity[a];
+    }
   return totalcart;
   }
 subcart(days){
@@ -19,4 +22,4 @@ subcart(days){
   for()
   return subcart;
   }
-}
+}   
